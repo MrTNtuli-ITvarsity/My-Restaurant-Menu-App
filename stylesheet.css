@@ -1,0 +1,241 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding:0;
+    height: 100%;
+}
+
+.body-home{
+    background-image:url(images/backgroundnew.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*=========================================== Home Menu ===========================================*/
+
+#home h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width:80%;
+}
+
+/*=========================================== Meals Pages ===========================================*/
+.body-meals{
+    background-image: url(images/backgroundmeals.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item {
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.meals-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    color: darkgreen;
+    text-align: center;
+}
+
+.meals-list-item i{
+    float: right;
+    color: darkgreen;
+    padding-right: 20px;
+}
+
+.meals-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: darkgreen;
+    margin-top: -7px;
+    padding-left: 10px;
+    text-align: center;
+}
+#meals{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*=========================================== Menu ===========================================*/
+
+#menu {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu-details-img {
+    display: block;
+    width: 100%;     
+    max-width: 600px; 
+    height: 400px;     
+    margin: 20px auto;
+    object-fit: cover; 
+}
+.menu-details h1 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    color: darkgreen;
+    text-align: center;
+}
+
+
+.text-box h2 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    color: darkgreen;
+    text-align: center;
+}
+.text-box textarea {
+    font-size: 15px;
+    font-style: italic;
+    color: darkgreen;
+    margin-top: -7px;
+    padding-left: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+
+/*=========================================== Header ===========================================*/
+
+.header img{
+    width: 150px;
+    padding-top: 14px;
+    padding-right: 25px;
+    margin: 0 auto;
+    display: block;
+}
+
+#home-logo-text{
+    width: 300px;
+    padding-top: 14px;
+    padding-right: 25px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 50px;
+}
+
+
+/*=========================================== Responsive layout ===========================================*/
+
+@media only screen and (min-width: 600px) {
+ #meals {
+    width: 80%;
+    margin: auto;
+ }
+ #menu {
+    width: 80%;
+    margin: auto;
+ }
+}
+
+@media only screen and (min-width:1000px){
+     #meals {
+    width: 60%;
+    margin: auto;
+ }
+ #menu {
+    width: 60%;
+    margin: auto;
+ }
+}
+
+@media only screen and (min-width:1500px){
+     #meals {
+    width: 40%;
+    margin: auto;
+ }
+ #menu {
+    width: 40%;
+    margin: auto;
+ }
+}
+
+@media only screen and (min-width:720px){
+    .body-home{
+        background-image:url("images/backgroundnew.jpg");
+    }
+    .body-meals{
+        background-image:url("images/backgroundmeals.jpg");
+    }
+}
+
+/*=========================================== order button ===========================================*/
+.order-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.order-button button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.order-button button:hover {
+    background-color: #45a049;
+}
+
+/*=========================================== Check out ===========================================*/
+#check-out img{
+    display: block;
+    width: 100%;     
+    max-width: 600px; 
+    height: 400px;     
+    margin: 20px auto;
+    object-fit: cover;
+}
+
+#check-out h1 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    color: darkgreen;
+    text-align: center;
+}
+
+#check-out a {
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
